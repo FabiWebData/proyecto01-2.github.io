@@ -4,105 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia de matemáticas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .contenedor{
+            width: 1100px;
+        }
+
+    </style>
 </head>
-<body>
-    <div>
-        <img src="img/logo.png" width="60" height="60"></im> <label> 
+<body style="margin: 0; padding: 0;">
+    <div style="background-color: rgb(255, 255, 255); width: 100%; margin: 0 auto; padding: 10px; text-align: center;" >
+       
+            <label style="color: rgb(65, 13, 85);"> <i>"Las matemáticas no conocen razas o límites geográficos. Para las matemáticas, el mundo cultural es una país". David Hilbert. </i></label>
     </div>
  
-    <header style="background: url(img/portadanva.jpg);height: 350px; width: 600px;" >
-    <div class="info-head">
-        <h2> Academia de matemáticas ONLINE</h2>
+    <header style="background: url(img/portadanva.jpg);height: 350px; width: 100%;display: flex;" >
+    <div class="info-head" style="text-align:center;">
+        <br><br>
+        <h2 style="color: white; margin: 0; padding: 0; font-size: 45px; font-family: sans-serif;text-align: center;"> Academia de matemáticas ONLINE</h2>
         <hr>
-        <span>
-        Somos una empresa 100% online dedicada a la enseñanza de matemáticas, contamos con distintos materiales didacticos, examenes de simulación y cursos personalizados para que cumplas tus objetivos academicos.
-        <br>
+        <span style="color: antiquewhite; font-size: 18px;" >
+        Somos una empresa 100% online dedicada a la enseñanza de matemáticas, contamos con distintos materiales didacticos, examenes de 
+        simulación y cursos personalizados para que cumplas tus objetivos academicos.
+        <br><br>
         Contamos con docentes preparados para enseñarte, más de 5 años nos respaldan.
-        </span><br>
-        <button> Contactanos </button>
+        </span><br><br><br>
+        <button style="background-color:grey; border-color: rgb(112, 112, 255); padding: 8px; border-radius: 10px;"> Contactanos </button>
     </div>
 
     </header>
 
-
-    <section id="encabezado">
-                <h3> Sobre nosotros</h3>
-                Tenemos más de 5 años de experiencia capacitando alumnos para examenes de admision a distintas universidades del país
+    <div class="contenedor" style="text-align: center; padding-left: 90px; padding-right: 90px;">
+    <section id="encabezado" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+                <h3 style="margin: 0; font-size: 35px;color: blue; "> <i>Sobre nosotros</i></h3>
+                
+                <span style="color: rgb(83, 83, 83);">Tenemos más de 5 años de experiencia capacitando alumnos para examenes de admision a distintas universidades del país.
                 <br> Clases en vivo y grabadas, ejercicios de práctica, examenes simuladores, técnicas de estudios.
-                <br> Docentes expertos en sus áreas y disponibles para resolver tus dudas.
+                <br> Docentes expertos en sus áreas y disponibles para resolver tus dudas. </span>
     </section>
+    </div> <br>
 
     <section id="servicios">
-        <div class="caja-servicios">
-            <img src="img/cursos.jpg" width="100px" >
-            <h5> Catalogo de cursos</h5>
-            <span> Cosulta los distintos cursos ofrecidos</span>
-        </div>
-
-        <div class="caja-servicios">
-            <img src="img/tareas.png" width="100px" >
-            <h5> Tareas</h5>
-            <span> Aquí encontraras distintos ejercicios para practicar</span>
-        </div>
-
-        <div class="caja-servicios">
-            <img src="img/libros.png" width="100px" >
-            <h5> Libros</h5>
-            <span> Accede a distintos libros en formato PDF totalmente gratis</span>
+        <div class="contenedor" style=" text-align:center; height: 300px; width: 1000px; margin: 0 auto; padding: 10px; display: flex;">
+            <div class="caja-servicios" >
+                <img src="img/cursos.jpg" width="100px" >
+                <h5> Catalogo de cursos</h5>
+                <span> Cosulta los distintos cursos ofrecidos</span>
+            </div>
+    
+            <div class="caja-servicios" >
+                <img src="img/tareas.png" width="100px" >
+                <h5> Tareas</h5>
+                <span> Aquí encontraras distintos ejercicios para practicar</span>
+            </div>
+    
+            <div class="caja-servicios">
+                <img src="img/libros.png" width="100px" >
+                <h5> Libros</h5>
+                <span> Accede a distintos libros en formato PDF totalmente gratis</span>
+            </div>
         </div>
     </section>
 
-<section id="curiosidades">
-
+<section id="curiosidades" style="text-align: center">
     <div class="titulo">
-        <h2> Explora algunas curiosidades</h2>
+        <h2 style="font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Explora algunas curiosidades</h2>
     </div>
 
-    <div class="galeria">
+    <div class="galeria" style="display: flex; padding-top: 0%; padding-right: 90px; padding-left: 90px;">
         <div class="caja-galeria">
             <img src="img/1.png" alt="" width="400px">
             <img src="img/2.png" alt="" width="400px">
             <img src="img/3.png" alt="" width="400px">
             <img src="img/4.png" alt="" width="400px">
-
-
         </div>
     </div>
 </section>
 
-<section id="suscribir" style="background: url(img/header.jpg); width: 600px; height: 350px;">
- <div class="encabezado">
-    <h2>Contacto</h2>
-    <span> Escribenos tus dudas o por si gustas información</span>
- </div>
 
- <form action="" id="contacto">
-    <input type="text" placeholder="Nombre completo"><br>
-    <input type="text" placeholder="Email"><br>
-    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"> </textarea>
+<section id="suscribir" style="background: url(img/header.jpg); width: 100%; height: 450px; text-align: center; opacity: 90%;">
+ 
+    <div class="contenedor" style="padding-left:90px ; padding-right: 90px;">
+                <div class="encabezado" >
+                    <h2 style="font-size: 40px;">Contacto</h2>
+                    <span> Escribenos tus dudas o por si gustas información</span>
+                </div>
+                
+                <form action="" id="contacto">
+                    <input  style="width: 500px;padding: 10px; margin: 10px;border-radius: 5px;"    type="text" placeholder="Nombre completo"><br>
+                    <input style="width: 500px;padding: 10px; margin: 10px; border-radius: 5px;" type="text" placeholder="Email"><br>
+                    <textarea name="" id="" cols="70" rows="10" placeholder="Mensaje"> </textarea>
+                    <div>
+                        <div class="check"> 
+                            <input id="subs" type="checkbox">
+                            <label for="subs" > Suscribete a nuestras noticias</label>
+                        </div>
+                
+                        <div class="btn">
+                            <button type="">Enviar </button>
+                        </div>
+                    </div> 
+                
+                </form>
 
-    <div>
-        <div class="check"> 
-            <input id="subs" type="checkbox">
-            <label for="subs" > Suscribete a nuestras noticias</label>
-        </div>
-
-        <div class="btn">
-            <button type="">Enviar </button>
-        </div>
     </div>
-
-</form>
 </section>
 
     
-<footer>
-    <span> Academia de matemáticas </span>
-    <div class="redes sociales">
-       <img src="img/face.png"  width="40"> matemáticas a tu alcance
-       <img src="img/correo.jpg" width="40">  matematicasatualcance@gmail.com
+<footer style="background-color: rgb(153, 153, 187);" >
+   <div class="contenedor" style="display: flex;padding: 10px;">
+            <span style="width: 60%; text-align: center; font-family: 'Courier New', Courier, monospace;"> Academia de matemáticas </span>
+            <div class="redes sociales" style="width: 40%;">
+            <a href="https://www.facebook.com/profile.php?id=61554780682860&mibextid=ZbWKwL" target="_blank" style="padding-right: 30px;" > <i class="fa-brands fa-facebook"></i></a>
+            <a href="" target="_blank"style="padding-right: 30px;"> <i class="fa-solid fa-envelope"></i></a>
+            <a href="www.youtube.com/@E2D3R5" target="_blank" style="padding-right: 30px;"> <i class="fa-brands fa-youtube" ></i></a>
+            <a href="" target="_blank" > <i class="fa-brands fa-whatsapp"></i> </a>
+            </div>
 
-    </div>
+   </div>
 </footer>
 
 </body>
